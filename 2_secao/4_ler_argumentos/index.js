@@ -14,4 +14,4 @@ const idade = args[1].split("=")[1]
 
 console.log(idade)
 
-console.log('O nome dele é ${nome} er ele tem ${idade} anos!')
+console.log(`O nome dele é ${nome} er ele tem ${idade} anos!`)
