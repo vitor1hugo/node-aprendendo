@@ -1,12 +1,9 @@
 const minimist = require('minimist')
-
+//externo
 const args = minimist(process.argv.slice(2))
 
-console.log(args)
 
-const nome = args ['nome']
-const profissao = args['profissao']
+//interno
+const soma =require('./soma').soma
 
-console.log(nome, profissao)
-
-console.log(`O nome dele é ${nome} e ele é ${profissao}`)
+soma(20+21)
