@@ -1,5 +1,4 @@
-const chalk = require('chalk')
-
+import chalk  from 'chalk'
 const nota = 9
 
-console.log(chalk.green('Parabéns!Você está aprovado!'))
+console.log(chalk.bgYellow('Parabéns!Você está aprovado!'))
