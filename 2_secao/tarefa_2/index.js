@@ -1,5 +1,4 @@
 import chalk  from 'chalk'
-import { error } from 'console'
 import inquirer from 'inquirer'
 
 inquirer
